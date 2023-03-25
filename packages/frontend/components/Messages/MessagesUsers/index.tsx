@@ -64,7 +64,7 @@ const MessagesUsers: FC<MessagesUsers> = ({ onSearchItemClick, conversations, us
       </HeadingContainer>
 
       <SearchContainer>
-        <Search radius="none" onlyUsers onItemClick={onSearchItemClick} placeholder="Search members" hideBorder />
+        <Search radius="none" onlyUsers onItemClick={onSearchItemClick} placeholder="Search students" hideBorder />
       </SearchContainer>
 
       <UserContainer>

@@ -169,7 +169,7 @@ const MessagesChat: FC<MessagesChatProps> = ({ onSearchItemClick, userId, user }
                 onItemClick={(user: any) => onSearchItemClick(user)}
                 hideBorder
                 hideIcon
-                placeholder="Name of a member"
+                placeholder="Name of a student"
               />
             </Spacing>
           </Container>

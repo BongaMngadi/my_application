@@ -137,7 +137,7 @@ const Like: FC<LikeProps> = ({ withText, fullWidth, hasLiked, post, queryKey }) 
       color={color}
     >
       <LikeIcon color={color} />
-      {withText && <Spacing left="xxs">Like</Spacing>}
+      {withText && <Spacing left="xxs">Star</Spacing>}
     </StyledButton>
   );
 };

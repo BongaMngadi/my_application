@@ -58,7 +58,7 @@ const PostCard: FC<PostCardProps> = ({
 
   const likesLength = post.likes.length;
   const commentsLength = post.comments.length;
-  const likes = likesLength > 0 ? likesLength + ' likes' : null;
+  const likes = likesLength > 0 ? likesLength + ' stars ' : null;
   const comments = commentsLength > 0 ? commentsLength + ' comments' : null;
   const hasLiked = post.likes.find((post: any) => post.user === authUser?._id);
 

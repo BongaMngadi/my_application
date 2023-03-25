@@ -90,7 +90,7 @@ const Header: ForwardRefRenderFunction<HTMLButtonElement, HeaderProps> = ({ togg
             <Search
               hideBorder
               backgroundColor={5}
-              placeholder="Search for posts and members"
+              placeholder="Search for posts and other students"
               onItemClick={(item) =>
                 item.fullName ? router.push(`/profile/${item._id}`) : router.push(`/post/${item._id}`)
               }

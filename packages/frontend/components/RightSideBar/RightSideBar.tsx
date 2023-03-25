@@ -50,12 +50,12 @@ const RightSideBar: FC = () => {
   return (
     <Root>
       <Heading>
-        <H3>New Members</H3>
+        <H3>New Students</H3>
       </Heading>
 
       {!isFetchingNewMembers && noNewMembers && (
         <Spacing top="sm">
-          <Text color="textSecondary">No new members.</Text>
+          <Text color="textSecondary">No new students.</Text>
         </Spacing>
       )}
 
@@ -65,13 +65,13 @@ const RightSideBar: FC = () => {
 
       <Spacing top="md">
         <Heading>
-          <H3>Online Members</H3>
+          <H3>Online Students</H3>
         </Heading>
       </Spacing>
 
       {!isFetchingOnlineMembers && noOnlineMembers && (
         <Spacing top="sm">
-          <Text color="textSecondary">No members are online.</Text>
+          <Text color="textSecondary">No students are online.</Text>
         </Spacing>
       )}
 

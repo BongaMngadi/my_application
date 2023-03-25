@@ -57,7 +57,7 @@ const Home: FC = () => {
                 </Button>
               )}
               <Spacing top="sm">
-                <Text>{!authUser && 'And'} Follow community members to see their posts in the News Feed.</Text>
+              <Text>{!authUser && 'And'} Hello! Hallo! Lotjhani! Molo! Sawubona! Dumela! Avuxeni! Ndaa!. Follow your fellow students to see their posts in the News Feed.</Text>
               </Spacing>
             </Spacing>
           </Container>

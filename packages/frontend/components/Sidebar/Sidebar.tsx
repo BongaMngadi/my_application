@@ -97,7 +97,7 @@ const Sidebar: ForwardRefRenderFunction<HTMLDivElement, SidebarProps> = ({ isOpe
           >
             <PeopleColorfulIcon color={router.pathname === '/members' ? 'primary' : 'text'} />
             {'\u00A0'}
-            {'\u00A0'} Members
+            {'\u00A0'} Other students
           </ButtonLink>
         </LI>
 
